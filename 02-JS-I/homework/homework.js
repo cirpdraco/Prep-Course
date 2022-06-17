@@ -43,7 +43,6 @@ function suma(x, y) {
 function resta(x, y) {
   // Resta "y" de "x" y devuelve el valor
   // Tu código:
-
   return x - y;
   
 }
@@ -52,7 +51,6 @@ function multiplica(x, y) {
   // Multiplica "x" por "y" y devuelve el valor
   // Tu código:
   return x * y;
-  
 }
 
 function divide(x, y) {
@@ -116,7 +114,6 @@ function obtenerResto(x, y) {
   // Obten el resto de la división de "x" entre "y"
   // Tu código:
   return x % y;
-  
 }
 
 function esPar(num) {
@@ -136,7 +133,6 @@ function esImpar(num) {
   // Devuelve "true" si "num" es impar
   // De lo contrario, devuelve "false"
   // Tu código:
-
    if ((num % 2) === 1){
     return true;
   }
@@ -232,7 +228,6 @@ function obtenerAreaRectangulo(alto, ancho) {
 function retornarPerimetro(lado){
   //Escibe una función a la cual reciba el valor del lado de un cuadrado y retorne su perímetro.
   //Escribe tu código aquí
-
   return lado * 4;
   
 }
